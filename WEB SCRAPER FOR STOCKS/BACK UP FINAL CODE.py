@@ -15,11 +15,25 @@ import webbrowser
 
 #FUNCTION FOR THE SCRAPPER
 def show():
-    philippine_timezone = pytz.timezone('Asia/Manila')
+     philippine_timezone = pytz.timezone('Asia/Manila')
     philippine_time = datetime.now(philippine_timezone)
     formatted_date = philippine_time.strftime("%Y-%m-%d")
-    formatted_time = philippine_time.strftime("%H:%M")
+    formatted_time = philippine_time.strftime("%H:%M:%S")
     print(f"Philippine Time \n{formatted_date}  {formatted_time} ")
+
+
+    time = CTkLabel(master=app, text="Date", font=("Century Gothic", 12), text_color="WHITE")
+    time.place(x=550, y=450)
+
+    time = CTkLabel(master=app, text=formatted_date, font=("Century Gothic", 20), text_color="WHITE")
+    time.place(x=550, y=480)
+
+    time = CTkLabel(master=app, text=formatted_time, font=("Century Gothic", 20), text_color="WHITE")
+    time.place(x=715, y=480)
+
+    time = CTkLabel(master=app, text="Time", font=("Century Gothic", 12), text_color="WHITE")
+    time.place(x=715, y=450)
+
 
 
     # CALLING THE WEBSITE AND REQUESTING ACCESS
