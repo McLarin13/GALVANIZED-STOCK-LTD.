@@ -1,0 +1,13 @@
+If you are running the application, we have embeded external links such as the logo and the background so it will crash if the directory is not seen by the py code. 
+
+the files in png and ico inside this folder is used by for the code so make sure to include it in the environemnt if you are going to run the code. 
+
+Everything here is used and needs to be read by the .py code. 
+
+
+
+PLEASE OPEN THE GALVANIZED STOCKS LTD..py 
+
+BACK UP FINAL CODE.py is just a back up that has a lacking feature 
+
+BACKEND CODE.py is the code for the webscrapper and on how we scrapped it. 
