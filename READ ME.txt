@@ -1,0 +1,23 @@
+--- This is the python files containing the final stock application. ---
+
+In this  repository, there is an embedded file which is a png file.
+If you will run the python file, please make sure to place the png file
+inside the environment of the  python file so it will function as it is 
+an important file to be embedded to run the code.
+
+
+In this repository, you can find the following
+
+
+1. Galvanized Stocks LTD.py
+	- main application python file
+
+2. BS4 Solely Scraping Code.py
+	- contains the scraping code to read excel
+
+3. Galvanized Stocks Background.png
+	- the main background picture used in the app
+
+
+Thank you and have a blessed day.
+
